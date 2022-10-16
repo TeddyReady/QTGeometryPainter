@@ -10,7 +10,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
 
 void MainWindow::mousePressEvent(QMouseEvent *event) {
     if (event->spontaneous() && CHOOSED_OBJECT != nullptr) {
-        CHOOSED_OBJECT->deselect();
+        CHOOSED_OBJECT->removeSelect();
     }
 
     if (CHOOSED_OBJECT == nullptr) {

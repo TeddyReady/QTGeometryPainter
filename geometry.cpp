@@ -8,7 +8,7 @@ Type1::Type1(QWidget *parent) : PaintBase(parent) {
     Modifications pointD = Modifications::Wave;
     Modifications pointE = Modifications::Sphere;
     Modifications pointF = Modifications::Rect;
-    setPoints({pointA, pointB, pointC, pointD, pointE, pointF});
+    setUpPoints({pointA, pointB, pointC, pointD, pointE, pointF});
 }
 
 Type2::Type2(QWidget *parent) : PaintBase(parent) {
@@ -19,5 +19,5 @@ Type2::Type2(QWidget *parent) : PaintBase(parent) {
     Modifications pointD = Modifications::Wave;
     Modifications pointE = Modifications::Rect;
     Modifications pointF = Modifications::Nothing;
-    setPoints({pointA, pointB, pointC, pointD, pointE, pointF});
+    setUpPoints({pointA, pointB, pointC, pointD, pointE, pointF});
 }

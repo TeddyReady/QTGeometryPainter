@@ -16,6 +16,7 @@ private:
 public:
     explicit ToolBar(QMainWindow *parent = nullptr);
 
+    //Выключение кнопки Удаления
     void setDisabledDestroyAction (bool isDisabled) {
         destroyAction->setDisabled(isDisabled);
     }
